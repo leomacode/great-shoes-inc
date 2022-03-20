@@ -1,5 +1,6 @@
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -9,6 +10,10 @@
 ### Screenshot
 
 ![](./screenshot.jpg)
+
+### Links
+
+- Live Site URL: [live](https://stoic-shockley-38f47b.netlify.app/)
 
 ## My process
 
@@ -22,9 +27,7 @@
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+css variables for customized buttons
 
 ```css
 .shoe-red {
@@ -44,7 +47,11 @@
   --clr-outer: #2193b0;
   --clr-accent: #008591;
 }
+```
 
+shape-outside and shape-margin properities
+
+```css
 .product {
   background: radial-gradient(
     var(--clr-inner, limegreen),
